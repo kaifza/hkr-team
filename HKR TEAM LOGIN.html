@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+        <title>HKR team register</title>
+        <style>
+            body{
+                background-image: url(./nice-place.webp);
+                background-repeat: no-repeat;
+                background-position-x: 50%;
+                background-position-y: 50%;
+                background-size: cover;
+                height: 97.6vh;  
+            }
+            h1{
+                text-align: center;
+            }
+            .register{
+                margin: auto;
+                background-color: white;
+                max-width: 350px;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            input[type=text]{
+                display: inline-block;
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                border-radius: 4px;
+                border: .5px solid;
+                margin: 10px 0;
+            }
+            input[type=submit]{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 10px;
+                border: none;
+                background-color: lightskyblue;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="register">
+            <p><h1>Register</h1></P>
+                <hr>
+            <form action="">             
+                <label for="Email">Email</label>
+                <input type="text">
+                <label for="Password">Password</label>
+                <input type="text">
+                <label for="confirm_password">comfirm password</label>
+                <input type="text">
+                <p>Already have an account <a href="">Login</a></P>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </body>
+</html>
